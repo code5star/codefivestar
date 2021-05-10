@@ -1,0 +1,102 @@
+body{
+    background-image: url("pexels-photo-3826435.jpeg");
+    color: white;
+}
+header{
+    background-image: linear-gradient(to right, rgba(119, 105, 158, 0.63), rgba(1, 31, 128, 0.829));
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    margin-bottom: 40%;
+}
+header div{
+    display: flex;
+}
+header img{
+    width: 10%;
+    height: -20%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    margin-right: 11%;
+}
+header h1{
+    font-family: 'Reggae One', cursive;
+    font-size: 18pt;
+}
+header a:link 
+{ 
+    color: #fff;
+    text-decoration: none;
+    width: -webkit-fill-available;
+} 
+section{
+    margin-top: 30%;
+}
+footer{
+    background-image: linear-gradient(to right, rgba(119, 105, 158, 0.63), rgba(1, 31, 128, 0.829));
+    margin-bottom: 0%;
+    display: flex;
+    font-family: 'Reggae One', cursive;
+    font-size: 8pt;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+footer p{
+    margin-right: 1%;
+}
+footer nav .links{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    color: white;
+    margin: 1%;
+    font-size: 8pt;
+    margin-left: 20%;
+    margin-top: 3%;
+    
+    border-radius: 14px;
+    text-decoration: none;
+}
+a
+{ 
+    color: #fff;
+    text-decoration: none;
+    width: -webkit-fill-available;
+} 
+.btn_link{
+    border-radius: 8px;
+    width: 110%;
+    height: 90%;
+    text-align: center;
+}
+.equipe{
+    display: flex;
+    color: white;
+    margin-right: 5%;
+    background-image: linear-gradient(to right, rgba(119, 105, 158, 0.63), rgba(1, 31, 128, 0.829));   
+    width: 100%;
+}
+.equipe img{
+    width: 100px;
+    border-radius: 20px;
+}
+.equipe .membro{
+    margin: 4%;
+    margin-top: 2%;
+    text-align: center;;
+}
+.membro h6{
+    margin-top: 1%;
+    font-size: 10pt;
+}
+h2{
+    text-align: center;
+}
